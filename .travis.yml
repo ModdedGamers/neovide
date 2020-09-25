@@ -15,4 +15,5 @@ addons:
     taps:
     - apenngrace/vulkan
     
-script: cargo build --release
+script: cargo build --release && cd target/release/neovide && ls
+
