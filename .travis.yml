@@ -15,4 +15,4 @@ addons:
     taps:
     - apenngrace/vulkan
     
-script: ls
+script: cargo build --release
