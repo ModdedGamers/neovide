@@ -1,0 +1,18 @@
+language: rust
+
+rust: stable
+
+os: osx
+
+osx_image: xcode10.3
+
+addons:
+  homebrew:
+    packages:
+    - cmake
+    casks:
+    - vulkan-sdk
+    taps:
+    - apenngrace/vulkan
+    
+script: ls
